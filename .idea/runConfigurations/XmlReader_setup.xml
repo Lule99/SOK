@@ -6,7 +6,7 @@
     <envs>
       <env name="PYTHONUNBUFFERED" value="1" />
     </envs>
-    <option name="SDK_HOME" value="C:\Users\abulj\sok_env\Scripts\python.exe" />
+    <option name="SDK_HOME" value="C:\Users\PC Desktop\sok_env\Scripts\python.exe" />
     <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/Corona19Tracker/XmlReader" />
     <option name="IS_MODULE_SDK" value="false" />
     <option name="ADD_CONTENT_ROOTS" value="false" />

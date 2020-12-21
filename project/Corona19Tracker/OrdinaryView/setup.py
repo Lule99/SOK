@@ -1,12 +1,12 @@
 from setuptools import setup, find_packages
 setup(
-    name="prikaz-fakultet-obican",
+    name="ordinary-view-plugin",
     version="0.1",
     packages=find_packages(),
-    namespace_packages=['rs','rs.uns','rs.uns.ftn','rs.uns.ftn.fakultet'],
+    namespace_packages=['startup'],
     entry_points = {
-        'fakultet.prikaz':
-            ['prikaz_obican=rs.uns.ftn.fakultet.prikaz_obican:OrdinaryView'],
+        'display.data':
+            ['ordinary_view=startup.display_data:OrdinaryView'],
     },
     zip_safe=True
 )

@@ -1,13 +1,13 @@
 from setuptools import setup, find_packages
 setup(
-    name="ucitavanje-fakultet-fajl",
+    name="text-reader-plugin",
     version="0.1",
     packages=find_packages(),
-    namespace_packages=['rs','rs.uns','rs.uns.ftn','rs.uns.ftn.fakultet'],
-    entry_points = {
-        'fakultet.ucitavanje':
-            ['ucitavanje_fajl=rs.uns.ftn.fakultet.ucitavanje_fajl:JsonReader'],
+    namespace_packages=['startup'],
+    entry_points={
+        'data.reading':
+            ['reading_file=startup.read_file:TextReader'],
     },
-    data_files=[('fajlovi',['fajlovi/fakulteti.txt'])],
+    data_files=[('data', ['../data/txt/dataset1.txt'])],
     zip_safe=False
 )

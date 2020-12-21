@@ -1,12 +1,13 @@
 from setuptools import setup, find_packages
 setup(
-    name="ucitavanje-fakultet-kod",
+    name="xml-reader-plugin",
     version="0.1",
     packages=find_packages(),
-    namespace_packages=['rs','rs.uns','rs.uns.ftn','rs.uns.ftn.fakultet'],
-    entry_points = {
-        'fakultet.ucitavanje':
-            ['ucitavanje_kod=rs.uns.ftn.fakultet.ucitavanje_kod:XmlReader'],
+    namespace_packages=['startup'],
+    entry_points={
+        'data.reading':
+            ['reading_file=startup.read_file:XmlReader'],
     },
-    zip_safe=True
+    data_files=[('data', ['../data/xml/dataset1.xml'])],
+    zip_safe=False
 )
