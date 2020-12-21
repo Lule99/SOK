@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/../Corona19Tracker">
+      <sourceFolder url="file://$MODULE_DIR$/../Corona19Tracker/Core" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../Corona19Tracker/OrdinaryView" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../Corona19Tracker/ComplexView" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../Corona19Tracker/JsonReader" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../Corona19Tracker/XmlReader" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../Corona19Tracker/StudentPrikazObican" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../Corona19Tracker/StudentPrikazSlozen" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../Corona19Tracker/StudentUcitavanjeFajl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../Corona19Tracker/StudentUcitavanjeKod" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../Corona19Tracker/TextReader" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="Python 3.6 (VirtualKOM2) (2)" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
